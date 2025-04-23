@@ -1,12 +1,14 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Calculator from "@/components/Calculator";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-purple-50 to-gray-100 p-4">
+      <h1 className="text-3xl font-bold mb-8 text-purple-900">Crisp Calculator</h1>
+      <Calculator />
+      <p className="text-gray-500 text-sm mt-8">
+        A modern calculator with a clean interface
+      </p>
     </div>
   );
 };
