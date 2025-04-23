@@ -106,7 +106,7 @@ const Calculator = () => {
   };
 
   return (
-    <div className="p-4 bg-gradient-to-br from-purple-50 to-purple-100 rounded-3xl shadow-lg max-w-xs mx-auto">
+    <div className="p-4 bg-gradient-to-br from-purple-50 to-purple-100 rounded-3xl shadow-lg max-w-md w-full mx-auto">
       <Display value={display} />
       
       <div className="grid grid-cols-4 gap-3 mt-6">
